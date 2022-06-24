@@ -1,6 +1,7 @@
 import { useState } from "react";
  import "./App.css"
-import { Home } from "./components/Home";
+import { Forecast } from "./components/Forecast";
+import { Weather } from "./components/Weather";
 function App() {
 
 
@@ -10,7 +11,8 @@ function App() {
  
   return (
     <div className="App">hello
-    <Home/>
+    <Weather/>
+    <Forecast/>
     </div>
      
   );
