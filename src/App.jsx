@@ -11,6 +11,7 @@ function App() {
  
   return (
     <div className="App">hello
+    <h1>updated</h1>
     <Weather/>
     <Forecast/>
     </div>
