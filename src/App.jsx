@@ -3,17 +3,12 @@ import { useState } from "react";
 import { Forecast } from "./components/Forecast";
 import { Weather } from "./components/Weather";
 function App() {
-
-
-
-
-
  
   return (
-    <div className="App">hello
-    <h1>updated</h1>
+    <div className="App"> 
+ 
     <Weather/>
-    <Forecast/>
+  
     </div>
      
   );
